@@ -1,0 +1,40 @@
+Data types
+A value in JavaScript is always of a certain type. For example, a string or a number.
+
+There are eight basic data types in JavaScript. Here, we’ll cover them in general and in the next chapters we’ll talk about each of them in detail.
+
+We can put any type in a variable. For example, a variable can at one moment be a string and then store a number:
+
+
+1) Number (integer + float) (Infinity, -Infinity and NaN)
+2) Bigint ( represent integer values larger than (253-1) or less than -(253-1) for negatives.)
+3) String  (A string in JavaScript must be surrounded by quotes)
+4) Boolean (logical type) (to store value like true or false)
+5) The “null” value ==> The special null value does not belong to any of the types described above. ==> represents “nothing”, “empty” or “value unknown”.
+6) The “undefined” value ==> The special value undefined also stands apart. It makes a type of its own, just like null. ==> The meaning of undefined is “value is not assigned”.
+7) Objects and Symbols ==> 
+        The object type is special.
+        All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities.
+
+    The typeof operator
+The typeof operator returns the type of the operand. It’s useful when we want to process values of different types differently or just want to do a quick check.
+
+A call to typeof x returns a string with the type name:
+
+typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof 10n // "bigint"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof Symbol("id") // "symbol"
+
+typeof Math // "object"  (1)
+
+typeof null // "object"  (2)
+
+typeof alert // "function"  (3)

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TypeOf Operator</h1>
+    <p>The typeof operator returns the type of the operand. It’s useful when we want to process values of different types differently or just want to do a quick check.
+
+        A call to typeof x returns a string with the type name:</p>
+    <ul>
+        <li>typeof undefined // "undefined"</li>
+        <li>typeof 0 // "number"</li>
+        <li>typeof 10n // "bigint"</li>
+        <li>typeof true // "boolean"</li>
+        <li>typeof "foo" // "string"</li>
+        <li>typeof Symbol("id") // "symbol"</li>  
+        <li>typeof Math // "object"  (1)</li> 
+        <li>typeof null // "object"  (2)</li>    
+        <li>typeof alert // "function"  (3)</li> 
+    </ul>
+</body>
+</html>
